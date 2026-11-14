@@ -26,8 +26,8 @@ After that, every push to `main` goes live automatically, so edit on a branch if
 | File | Purpose |
 |---|---|
 | `index.html` | Homepage: services, how it works, check-up app, service area, FAQ, request form |
-| `privacy/` | Plain-English privacy page, linked from the form and footer |
-| `thanks/` | Where the form sends people after a successful request |
+| `privacy.html` | Plain-English privacy page, linked from the form and footer |
+| `thanks.html` | Where the form sends people after a successful request |
 | `404.html` | Not-found page |
 | `styles.css`, `site.js` | Shared styles; form handling (the site works without JS) |
 | `og-image.png` | The preview card shown when the link is shared on Facebook, Messenger, etc. |
@@ -39,12 +39,12 @@ The request form posts to Web3Forms, which emails hello@quintetechhelp.ca. The a
 form is a public key by design.
 
 ## After each deploy
-1. Send a test request through the live form and confirm it reaches the inbox and lands on `/thanks/`.
+1. Send a test request through the live form and confirm it reaches the inbox and lands on the thank-you page.
 2. Paste the site URL into Facebook's Sharing Debugger and click "Scrape Again" so Facebook picks up the preview image.
 3. If you added pages, add them to `sitemap.xml`.
 
 ## To do
-- [ ] Review wording that makes promises on your behalf: the FAQ answers and `privacy/` (especially "The data on your device")
+- [ ] Review wording that makes promises on your behalf: the FAQ answers and `privacy.html` (especially "The data on your device")
 - [ ] Decide the open items in `ops/service-terms-DRAFT.md`
 - [ ] Link the Help Me Help You app from `index.html#checkup` once it's in the Microsoft Store
 - [ ] Add Facebook page and Google review links to the footer once they exist

@@ -22,7 +22,7 @@
       .then(function (r) { return r.json(); })
       .then(function (res) {
         if (!res || !res.success) throw new Error('rejected');
-        window.location.href = '/thanks/';
+        window.location.href = '/thanks.html';
       })
       .catch(function () {
         button.disabled = false;
