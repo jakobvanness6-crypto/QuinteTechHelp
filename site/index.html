@@ -6,56 +6,87 @@
 <title>Quinte Tech Help | PC Repair &amp; Tech Help in Belleville, Ontario</title>
 <meta name="description" content="Friendly, honest PC, laptop and console repair in Belleville and the Bay of Quinte region. Upfront quotes, fast turnaround, no jargon.">
 <link rel="canonical" href="https://quintetechhelp.ca/">
+<meta name="theme-color" content="#0e1116">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Quinte Tech Help">
+<meta property="og:locale" content="en_CA">
+<meta property="og:url" content="https://quintetechhelp.ca/">
+<meta property="og:title" content="Quinte Tech Help | PC Repair &amp; Tech Help in Belleville">
+<meta property="og:description" content="Friendly, honest PC, laptop and console help for Belleville and the Bay of Quinte. Clear quotes up front, no jargon, no surprise fees.">
+<meta property="og:image" content="https://quintetechhelp.ca/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Quinte Tech Help: PC, laptop and console repair in Belleville and the Bay of Quinte">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="stylesheet" href="/styles.css">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ComputerRepair",
+  "@type": "LocalBusiness",
+  "@id": "https://quintetechhelp.ca/#business",
   "name": "Quinte Tech Help",
+  "description": "PC, laptop and console repair, upgrades and tech support in Belleville and the Bay of Quinte region. Drop-off and house calls.",
   "url": "https://quintetechhelp.ca/",
-  "areaServed": ["Belleville", "Quinte West", "Trenton", "Prince Edward County", "Bay of Quinte"],
+  "email": "hello@quintetechhelp.ca",
+  "image": "https://quintetechhelp.ca/og-image.png",
+  "priceRange": "$$",
   "address": {"@type": "PostalAddress", "addressLocality": "Belleville", "addressRegion": "ON", "addressCountry": "CA"},
-  "priceRange": "$$"
+  "areaServed": [
+    {"@type": "City", "name": "Belleville"},
+    {"@type": "City", "name": "Quinte West"},
+    {"@type": "City", "name": "Trenton"},
+    {"@type": "AdministrativeArea", "name": "Prince Edward County"},
+    {"@type": "AdministrativeArea", "name": "Bay of Quinte"}
+  ],
+  "knowsAbout": ["Computer repair", "Laptop repair", "Virus removal", "SSD upgrades", "RAM upgrades", "PS5 storage upgrades", "Data transfer", "Wi-Fi troubleshooting", "Printer setup"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Tech help services",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "PC repair and troubleshooting"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Laptop upgrades and clean reinstalls"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Hardware upgrades and installs, including PS5 storage"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Device setup and one-on-one tech support"}}
+    ]
+  }
 }
 </script>
-<style>
-:root{--bg:#0e1116;--card:#171c24;--text:#e8ecf1;--muted:#9aa5b4;--accent:#2ee59d;--accent-ink:#06281a;--line:#262d38}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text)}
-.wrap{max-width:960px;margin:0 auto;padding:0 16px}
-header{border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(14,17,22,.92);backdrop-filter:blur(8px);z-index:5}
-header .wrap{display:flex;justify-content:space-between;align-items:center;height:56px}
-.logo{font-weight:800;letter-spacing:.3px}.logo span{color:var(--accent)}
-nav a{color:var(--muted);text-decoration:none;margin-left:16px;font-size:14px}
-.btn{display:inline-block;background:var(--accent);color:var(--accent-ink);font-weight:700;padding:12px 20px;border-radius:10px;text-decoration:none;border:0;cursor:pointer;font-size:16px}
-.btn.ghost{background:transparent;color:var(--text);border:1px solid var(--line)}
-.hero{padding:64px 0 48px}
-.hero h1{font-size:clamp(30px,6vw,48px);line-height:1.15;margin:0 0 16px}
-.hero p{color:var(--muted);font-size:18px;max-width:600px}
-.hero .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
-section{padding:40px 0;border-top:1px solid var(--line)}
-h2{margin:0 0 20px;font-size:26px}
-.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
-.card h3{margin:0 0 6px;font-size:17px}
-.card p{margin:0;color:var(--muted);font-size:15px}
-.price{color:var(--accent);font-weight:700;margin-top:10px!important}
-ol.steps{padding-left:20px;color:var(--muted)}ol.steps li{margin-bottom:10px}ol.steps b{color:var(--text)}
-form{display:grid;gap:12px;max-width:560px}
-label{font-size:14px;color:var(--muted)}
-input,select,textarea{width:100%;padding:12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--text);font:inherit}
-textarea{min-height:110px}
-.hp{position:absolute;left:-9999px}
-footer{padding:32px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
-</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "How much does a repair cost?",
+     "acceptedAnswer": {"@type": "Answer", "text": "Most jobs fall between $50 and $100. You always get a quote before any work starts, and nothing happens until you approve it. Parts, if you need any, are quoted separately."}},
+    {"@type": "Question", "name": "Do you come to me, or do I drop my device off?",
+     "acceptedAnswer": {"@type": "Answer", "text": "Either. Drop-off and house calls are both available around Belleville, Quinte West, Trenton and Prince Edward County. Pick whichever suits you in the request form, or choose Not sure yet and we'll figure it out."}},
+    {"@type": "Question", "name": "Will I lose my files?",
+     "acceptedAnswer": {"@type": "Answer", "text": "Nothing gets wiped without you agreeing to it first. If a job could affect your files, we talk about backing them up before I start."}},
+    {"@type": "Question", "name": "What can you fix?",
+     "acceptedAnswer": {"@type": "Answer", "text": "Windows desktops and laptops are the bread and butter: slow PCs, viruses, crashes, boot and update problems, upgrades and clean reinstalls. I also do PS5 storage upgrades, new device setup, Wi-Fi and printer trouble. If you're not sure it's something I handle, ask. I'll tell you straight if it's not."}},
+    {"@type": "Question", "name": "How quickly will I hear back?",
+     "acceptedAnswer": {"@type": "Answer", "text": "I usually reply within a few hours of a request coming in."}}
+  ]
+}
+</script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header><div class="wrap">
-  <div class="logo">Quinte <span>Tech</span> Help</div>
-  <nav><a href="#services">Services</a><a href="#how">How it works</a><a href="#request">Get help</a></nav>
+  <a class="logo" href="/">Quinte <span>Tech</span> Help</a>
+  <nav aria-label="Main">
+    <a href="#services">Services</a>
+    <a class="opt" href="#how">How it works</a>
+    <a class="opt" href="#faq">FAQ</a>
+    <a class="nav-cta" href="#request">Get help</a>
+  </nav>
 </div></header>
 
-<main>
+<main id="main">
 <div class="wrap">
   <div class="hero">
     <h1>Your computer's acting up?<br>Let's get it sorted.</h1>
@@ -64,6 +95,11 @@ footer{padding:32px 0;color:var(--muted);font-size:14px;border-top:1px solid var
       <a class="btn" href="#request">Request help</a>
       <a class="btn ghost" href="#how">How it works</a>
     </div>
+    <ul class="trust">
+      <li>Quote before any work starts</li>
+      <li>Drop-off or house call</li>
+      <li>Explained in plain English</li>
+    </ul>
   </div>
 
   <section id="services">
@@ -81,7 +117,7 @@ footer{padding:32px 0;color:var(--muted);font-size:14px;border-top:1px solid var
     <h2>How it works</h2>
     <ol class="steps">
       <li><b>Tell me what's wrong.</b> Fill in the short form below. I usually reply within a few hours.</li>
-      <li><b>Send a quick report (optional).</b> My free one-click PC check-up app saves a plain-English report of what's going on, so I can see it before I show up. <a href="#checkup" style="color:var(--accent)">More on the app</a></li>
+      <li><b>Send a quick report (optional).</b> My free one-click PC check-up app saves a plain-English report of what's going on, so I can see it before I show up. <a href="#checkup">More on the app</a></li>
       <li><b>Get a clear quote.</b> You approve it before any work begins.</li>
       <li><b>Fixed and explained.</b> I'll tell you what was wrong in plain English and how to avoid it next time.</li>
     </ol>
@@ -92,38 +128,70 @@ footer{padding:32px 0;color:var(--muted);font-size:14px;border-top:1px solid var
     <div class="card">
       <h3>Coming soon to the Microsoft Store</h3>
       <p>One click checks your PC and saves a report you can send to whoever helps you. It covers your Windows version, drive space and health, startup programs, failed updates, battery wear and recent crashes, with each item marked OK, Worth a look or Needs attention.</p>
-      <p style="margin-top:10px">It works offline, changes nothing on your PC, never reads your files, and removes your username, PC name and serial numbers from the report. Until it's in the Store, just describe the problem in the form below and I'll walk you through it.</p>
+      <p>It works offline, changes nothing on your PC, never reads your files, and removes your username, PC name and serial numbers from the report. Until it's in the Store, just describe the problem in the form below and I'll walk you through it.</p>
     </div>
   </section>
 
   <section id="area">
     <h2>Where I work</h2>
-    <p style="color:var(--muted)">Belleville, Quinte West, Trenton, Prince Edward County and surrounding areas. Drop-off and house calls available. Ask when you reach out.</p>
+    <p class="lead">Belleville, Quinte West, Trenton, Prince Edward County and surrounding areas. Drop-off and house calls available. Ask when you reach out.</p>
+  </section>
+
+  <section id="faq" class="faq">
+    <h2>Common questions</h2>
+    <details>
+      <summary>How much does a repair cost?</summary>
+      <p>Most jobs fall between $50 and $100. You always get a quote before any work starts, and nothing happens until you approve it. Parts, if you need any, are quoted separately.</p>
+    </details>
+    <details>
+      <summary>Do you come to me, or do I drop my device off?</summary>
+      <p>Either. Drop-off and house calls are both available around Belleville, Quinte West, Trenton and Prince Edward County. Pick whichever suits you in the request form, or choose "Not sure yet" and we'll figure it out.</p>
+    </details>
+    <details>
+      <summary>Will I lose my files?</summary>
+      <p>Nothing gets wiped without you agreeing to it first. If a job could affect your files, we talk about backing them up before I start.</p>
+    </details>
+    <details>
+      <summary>What can you fix?</summary>
+      <p>Windows desktops and laptops are the bread and butter: slow PCs, viruses, crashes, boot and update problems, upgrades and clean reinstalls. I also do PS5 storage upgrades, new device setup, Wi-Fi and printer trouble. If you're not sure it's something I handle, ask. I'll tell you straight if it's not.</p>
+    </details>
+    <details>
+      <summary>How quickly will I hear back?</summary>
+      <p>I usually reply within a few hours of a request coming in.</p>
+    </details>
   </section>
 
   <section id="request">
     <h2>Request help</h2>
-    <form action="https://api.web3forms.com/submit" method="POST">
+    <p class="lead">Tell me what's going on and I'll get back to you with next steps. Prefer email? Reach me at <a href="mailto:hello@quintetechhelp.ca">hello@quintetechhelp.ca</a>.</p>
+    <form id="request-form" action="https://api.web3forms.com/submit" method="POST">
       <input type="hidden" name="access_key" value="5ee989ec-b0c9-4120-9723-e8778c8d5f5d">
       <input type="hidden" name="subject" value="New Quinte Tech Help request">
-      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off">
-      <div><label for="name">Your name</label><input id="name" name="name" required></div>
+      <input type="hidden" name="from_name" value="Quinte Tech Help website">
+      <input type="hidden" name="redirect" value="https://quintetechhelp.ca/thanks/">
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div>
       <div><label for="contact">Phone or email</label><input id="contact" name="contact" required></div>
       <div><label for="device">What needs fixing?</label>
         <select id="device" name="device">
           <option>Desktop PC</option><option>Laptop</option><option>PS5 / console</option><option>Phone</option><option>Other</option>
         </select></div>
       <div><label for="issue">What's going on?</label><textarea id="issue" name="issue" required></textarea></div>
-      <div><label for="how">Drop-off or house call?</label>
-        <select id="how" name="service_type"><option>Not sure yet</option><option>Drop-off</option><option>House call</option></select></div>
+      <div><label for="how-served">Drop-off or house call?</label>
+        <select id="how-served" name="service_type"><option>Not sure yet</option><option>Drop-off</option><option>House call</option></select></div>
       <div><label for="ref">How did you hear about me? (optional)</label><input id="ref" name="referral"></div>
       <button class="btn" type="submit">Send request</button>
+      <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+      <p class="form-note">Your details are only used to reply to you about your request. <a href="/privacy/">Privacy</a></p>
     </form>
   </section>
 </div>
 </main>
 
-<footer><div class="wrap">&copy; <span id="y"></span> Quinte Tech Help &middot; Belleville, Ontario &middot; Know someone who needs a hand? Send them my way.</div></footer>
-<script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+<footer><div class="wrap"><div class="row">
+  <span>&copy; <span id="y">2026</span> Quinte Tech Help &middot; Belleville, Ontario &middot; Know someone who needs a hand? Send them my way.</span>
+  <span><a href="mailto:hello@quintetechhelp.ca">hello@quintetechhelp.ca</a> &middot; <a href="/privacy/">Privacy</a></span>
+</div></div></footer>
+<script src="/site.js" defer></script>
 </body>
 </html>
