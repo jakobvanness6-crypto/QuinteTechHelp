@@ -73,3 +73,11 @@ textarea{min-height:110px;resize:vertical}
 footer{padding:32px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
 footer a{color:var(--muted)}
 footer .row{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-between}
+.crumb{font-size:14px;margin:0 0 16px}
+.crumb a{color:var(--muted)}
+.prose .lead{font-size:18px;max-width:none}
+.prose ul{padding-left:20px}
+.prose li{margin-bottom:6px}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:36px}
+.card p a{font-size:14px;font-weight:600;text-decoration:none}
+.card p a:hover{text-decoration:underline}

@@ -28,6 +28,7 @@ After that, every push to `main` goes live automatically, so edit on a branch if
 | `index.html` | Homepage: services, how it works, check-up app, service area, FAQ, request form |
 | `privacy.html` | Plain-English privacy page, linked from the form and footer |
 | `thanks.html` | Where the form sends people after a successful request |
+| `laptop-upgrades.html`, `virus-removal.html`, `ps5-storage-upgrade.html`, `new-device-setup.html` | Service pages, one per thing people search for |
 | `404.html` | Not-found page |
 | `styles.css`, `site.js` | Shared styles; form handling (the site works without JS) |
 | `og-image.png` | The preview card shown when the link is shared on Facebook, Messenger, etc. |
