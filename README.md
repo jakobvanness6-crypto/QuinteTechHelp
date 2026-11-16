@@ -26,6 +26,7 @@ After that, every push to `main` goes live automatically, so edit on a branch if
 | File | Purpose |
 |---|---|
 | `index.html` | Homepage: services, how it works, check-up app, service area, FAQ, request form |
+| `faq.html` | Full FAQ: turnaround, backups, drop-off, payment, warranty, what to bring |
 | `privacy.html` | Plain-English privacy page, linked from the form and footer |
 | `thanks.html` | Where the form sends people after a successful request |
 | `laptop-upgrades.html`, `virus-removal.html`, `ps5-storage-upgrade.html`, `new-device-setup.html` | Service pages, one per thing people search for |
@@ -48,5 +49,7 @@ form is a public key by design.
 - [ ] Review wording that makes promises on your behalf: the FAQ answers and `privacy.html` (especially "The data on your device")
 - [ ] Decide the open items in `ops/service-terms-DRAFT.md`
 - [ ] Link the Help Me Help You app from `index.html#checkup` once it's in the Microsoft Store
-- [ ] Add Facebook page and Google review links to the footer once they exist
+- [ ] Swap the placeholder Google review link (a Google search for the business) for your real review link from Google Business Profile > Ask for reviews. It's in the "Book a repair" strip on every page and on `thanks.html`: find `google.com/search?q=Quinte+Tech+Help+Belleville` and replace it everywhere
+- [ ] Confirm the payment, warranty and turnaround answers in `faq.html` match what you actually offer (they follow the draft in `ops/service-terms-DRAFT.md`)
+- [ ] Add Facebook page link to the footer once it exists
 - [ ] Add a phone number to the site and schema if you want calls
