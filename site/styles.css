@@ -81,3 +81,12 @@ footer .row{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-betwe
 .cta-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:36px}
 .card p a{font-size:14px;font-weight:600;text-decoration:none}
 .card p a:hover{text-decoration:underline}
+
+.book{border-top:1px solid var(--line);padding:36px 0;background:var(--card)}
+.book-row{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;justify-content:space-between}
+.book h2{margin:0 0 6px;font-size:22px}
+.book p{margin:0;color:var(--muted);max-width:520px}
+.book-actions{display:flex;gap:12px;flex-wrap:wrap}
+.book .review-nudge{margin-top:20px;padding-top:16px;border-top:1px solid var(--line);font-size:15px;max-width:none}
+.book + footer{border-top:0}
+.review-card{max-width:520px;margin:28px auto 0;text-align:left}
