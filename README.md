@@ -49,7 +49,5 @@ form is a public key by design.
 - [ ] Review wording that makes promises on your behalf: the FAQ answers and `privacy.html` (especially "The data on your device")
 - [ ] Decide the open items in `ops/service-terms-DRAFT.md`
 - [ ] Link the Help Me Help You app from `index.html#checkup` once it's in the Microsoft Store
-- [ ] Swap the placeholder Google review link (a Google search for the business) for your real review link from Google Business Profile > Ask for reviews. It's in the "Book a repair" strip on every page and on `thanks.html`: find `google.com/search?q=Quinte+Tech+Help+Belleville` and replace it everywhere
-- [ ] Confirm the payment, warranty and turnaround answers in `faq.html` match what you actually offer (they follow the draft in `ops/service-terms-DRAFT.md`)
 - [ ] Add Facebook page link to the footer once it exists
 - [ ] Add a phone number to the site and schema if you want calls
