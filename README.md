@@ -27,6 +27,7 @@ After that, every push to `main` goes live automatically, so edit on a branch if
 |---|---|
 | `index.html` | Homepage: services, how it works, check-up app, service area, FAQ, request form |
 | `faq.html` | Full FAQ: turnaround, backups, drop-off, payment, warranty, what to bring |
+| `services.html` | Services and prices (the price list) |
 | `privacy.html` | Plain-English privacy page, linked from the form and footer |
 | `thanks.html` | Where the form sends people after a successful request |
 | `laptop-upgrades.html`, `virus-removal.html`, `ps5-storage-upgrade.html`, `new-device-setup.html` | Service pages, one per thing people search for |

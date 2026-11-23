@@ -1,0 +1,11 @@
+// Tells Cloudflare exactly which folder is the website, so every file in site/
+// (including sitemap.xml and robots.txt) gets published.
+{
+  "name": "quintetechhelp",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./site",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}
