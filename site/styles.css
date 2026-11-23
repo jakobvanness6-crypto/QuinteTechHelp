@@ -72,6 +72,9 @@ textarea{min-height:110px;resize:vertical}
 
 footer{padding:32px 0;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
 footer a{color:var(--muted)}
+footer .social{display:flex;gap:14px;align-items:center}
+footer .social a{display:inline-flex;padding:4px}
+footer .social a:hover{color:var(--accent,#2ee59d)}
 footer .row{display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-between}
 .crumb{font-size:14px;margin:0 0 16px}
 .crumb a{color:var(--muted)}
